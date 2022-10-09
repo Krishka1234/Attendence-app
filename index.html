@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Attendence App</title>
+       <link rel="stylesheet" href="style.css">
+       <script src="main.js">
+       </script>
+    </head>
+ <body background="https://previews.123rf.com/images/julipaper/julipaper2007/julipaper200700789/151880157-template-for-school-educational-project-or-photo-frame-white-school-board-on-a-background-of-a-noteb.jpg">
+    <center>
+        <h3>
+            List of students 
+        </h3>
+        <div>
+            <input type="text" placeholder="Name of the student" id="name1">
+            <button onclick="submit()" id="submitbutton">
+                Submit
+            </button>
+            <div id="displayname" style="font-weight: bold;"></div>  
+        </div>
+        <div id="show"  style="font-weight: bold;" >
+            <h3>
+                List of students 
+            </h3>  
+            <button onclick="show()" id="showbutton">
+                Show
+            </button>
+           <p id="p1"></p>
+        </div>
+        <button onclick="sorting()" id="sortbutton">
+            Sort
+        </button>
+        <div id="sortedname" style="font-weight: bold;"></div>
+    </center>
+ </body>
+</html>
